@@ -1,6 +1,7 @@
 {
   "name": "docker-rails-test",
   "private": true,
+  "version": "0.1.0",
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -9,14 +10,13 @@
     "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
-    "@babel/plugin-proposal-private-methods": "^7.18.6"
+    "@babel/plugin-transform-private-methods": "^7.18.6"
   },
-  "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3"
   },
-  "scripts": { 
-    "start": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --inline --hot", 
+  "scripts": {
+    "start": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --inline --hot",
     "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode production"
-}
+  }
 }

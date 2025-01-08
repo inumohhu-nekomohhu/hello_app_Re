@@ -81,7 +81,7 @@ GEM
     crass (1.0.6)
     date (3.4.1)
     erubi (1.13.1)
-    ffi (1.17.1)
+    ffi (1.17.1-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.6)
@@ -107,7 +107,7 @@ GEM
     minitest (5.25.4)
     msgpack (1.7.5)
     mysql2 (0.5.6)
-    net-imap (0.4.18)
+    net-imap (0.5.5)
       date
       net-protocol
     net-pop (0.1.2)
@@ -117,7 +117,7 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.17.2-x86_64-linux)
+    nokogiri (1.18.1-x86_64-linux-gnu)
       racc (~> 1.4)
     public_suffix (6.0.1)
     puma (5.6.9)
@@ -217,7 +217,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.1)
 
 PLATFORMS
   x86_64-linux
@@ -242,7 +242,7 @@ DEPENDENCIES
   webpacker (~> 5.0)
 
 RUBY VERSION
-   ruby 3.0.5p211
+   ruby 3.2.6p234
 
 BUNDLED WITH
-   2.2.33
+   2.4.19

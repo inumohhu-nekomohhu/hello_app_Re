@@ -16,5 +16,8 @@ COPY Gemfile Gemfile.lock /docker_rails_test/
 #コンテナ内にコピーしたGemfileを用いてbundel install
 RUN bundle install
 
+# 環境変数の設定 
+ENV NODE_OPTIONS=--openssl-legacy-provider
+
 #railsを起動する
 CMD ["rails", "server", "-b", "0.0.0.0"]
